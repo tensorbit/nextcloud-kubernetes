@@ -7,7 +7,6 @@
 To install the repo just run:
 
 ```bash
-helm repo add nextcloud https://nextcloud.github.io/helm/
 helm repo add nextcloud https://tensorbit.github.io/nextcloud-kubernetes
 helm repo update
 ```
