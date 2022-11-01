@@ -1,0 +1,32 @@
+apiVersion: v1
+entries:
+  nextcloud:
+  - apiVersion: v2
+    appVersion: 24.0.5
+    created: "2022-11-01T17:07:55.364064-06:00"
+    description: A file sharing server that puts the control and security of your
+      own data back into your hands.
+    digest: 1b06dd9fac93cb1f5b68b710b102105f5e7fc2d92d4c39fe6c77c05d6f0ec457
+    home: https://nextcloud.com/
+    icon: https://cdn.rawgit.com/docker-library/docs/defa5ffc7123177acd60ddef6e16bddf694cc35f/nextcloud/logo.svg
+    keywords:
+    - nextcloud
+    - storage
+    - http
+    - web
+    - php
+    maintainers:
+    - email: skjnldsv@protonmail.com
+      name: skjnldsv
+    - email: christian.ingenhaag@googlemail.com
+      name: chrisingenhaag
+    - email: jeff@billimek.com
+      name: billimek
+    name: nextcloud
+    sources:
+    - https://github.com/nextcloud/helm
+    - https://github.com/nextcloud/docker
+    urls:
+    - https://raw.githubusercontent.com/tensorbit/nextcloud-kubernetes/main/build/nextcloud-3.2.1.tgz
+    version: 3.2.1
+generated: "2022-11-01T17:07:55.36129-06:00"
