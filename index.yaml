@@ -3,7 +3,35 @@ entries:
   nextcloud:
   - apiVersion: v2
     appVersion: 24.0.5
-    created: "2022-11-01T17:23:33.474099-06:00"
+    created: "2022-11-01T17:30:05.526855-06:00"
+    description: A file sharing server that puts the control and security of your
+      own data back into your hands.
+    digest: d217d50ae8cd5d4c6608c7dbb4073876ce869f151625a8b84f9277dd79326259
+    home: https://nextcloud.com/
+    icon: https://cdn.rawgit.com/docker-library/docs/defa5ffc7123177acd60ddef6e16bddf694cc35f/nextcloud/logo.svg
+    keywords:
+    - nextcloud
+    - storage
+    - http
+    - web
+    - php
+    maintainers:
+    - email: skjnldsv@protonmail.com
+      name: skjnldsv
+    - email: christian.ingenhaag@googlemail.com
+      name: chrisingenhaag
+    - email: jeff@billimek.com
+      name: billimek
+    name: nextcloud
+    sources:
+    - https://github.com/nextcloud/helm
+    - https://github.com/nextcloud/docker
+    urls:
+    - https://raw.githubusercontent.com/tensorbit/nextcloud-kubernetes/main/build/nextcloud-3.2.2.tgz
+    version: 3.2.2
+  - apiVersion: v2
+    appVersion: 24.0.5
+    created: "2022-11-01T17:30:05.523203-06:00"
     description: A file sharing server that puts the control and security of your
       own data back into your hands.
     digest: 20a42c34b58252fd5d8877e4b6ad98190c2a473d44732227fa4cb22298285461
@@ -29,4 +57,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/tensorbit/nextcloud-kubernetes/main/build/nextcloud-3.2.1.tgz
     version: 3.2.1
-generated: "2022-11-01T17:23:33.471108-06:00"
+generated: "2022-11-01T17:30:05.520421-06:00"
