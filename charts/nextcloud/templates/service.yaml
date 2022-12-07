@@ -13,6 +13,9 @@ spec:
   {{- if eq .Values.service.type "LoadBalancer" }}
   loadBalancerIP: {{ default "" .Values.service.loadBalancerIP }}
   {{- end }}
+  {{- if eq .Values.service.type "ClusterIP" }}
+  clusterIP: {{ default "" .Values.service.clusterIP }}
+  {{- end }}
   ports:
   - port: {{ .Values.service.port }}
     targetPort: http

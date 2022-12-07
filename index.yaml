@@ -3,7 +3,63 @@ entries:
   nextcloud:
   - apiVersion: v2
     appVersion: 24.0.5
-    created: "2022-11-01T20:19:05.833832-06:00"
+    created: "2022-12-06T21:01:04.898203-06:00"
+    description: A file sharing server that puts the control and security of your
+      own data back into your hands.
+    digest: 7ed637f283057e765a5f1e08ef9c94109ee98c0bb180ed83452b85dbedb02dea
+    home: https://nextcloud.com/
+    icon: https://cdn.rawgit.com/docker-library/docs/defa5ffc7123177acd60ddef6e16bddf694cc35f/nextcloud/logo.svg
+    keywords:
+    - nextcloud
+    - storage
+    - http
+    - web
+    - php
+    maintainers:
+    - email: skjnldsv@protonmail.com
+      name: skjnldsv
+    - email: christian.ingenhaag@googlemail.com
+      name: chrisingenhaag
+    - email: jeff@billimek.com
+      name: billimek
+    name: nextcloud
+    sources:
+    - https://github.com/nextcloud/helm
+    - https://github.com/nextcloud/docker
+    urls:
+    - https://raw.githubusercontent.com/tensorbit/nextcloud-kubernetes/main/build/nextcloud-3.2.7.tgz
+    version: 3.2.7
+  - apiVersion: v2
+    appVersion: 24.0.5
+    created: "2022-12-06T21:01:04.896058-06:00"
+    description: A file sharing server that puts the control and security of your
+      own data back into your hands.
+    digest: 7626f5049a4c134a1658559d281249790c462b0d52c1c93e784070920c3efbe9
+    home: https://nextcloud.com/
+    icon: https://cdn.rawgit.com/docker-library/docs/defa5ffc7123177acd60ddef6e16bddf694cc35f/nextcloud/logo.svg
+    keywords:
+    - nextcloud
+    - storage
+    - http
+    - web
+    - php
+    maintainers:
+    - email: skjnldsv@protonmail.com
+      name: skjnldsv
+    - email: christian.ingenhaag@googlemail.com
+      name: chrisingenhaag
+    - email: jeff@billimek.com
+      name: billimek
+    name: nextcloud
+    sources:
+    - https://github.com/nextcloud/helm
+    - https://github.com/nextcloud/docker
+    urls:
+    - https://raw.githubusercontent.com/tensorbit/nextcloud-kubernetes/main/build/nextcloud-3.2.6.tgz
+    version: 3.2.6
+  - apiVersion: v2
+    appVersion: 24.0.5
+    created: "2022-12-06T21:01:04.89407-06:00"
     description: A file sharing server that puts the control and security of your
       own data back into your hands.
     digest: 8c90e1583d5717542ff7a03dc5d8ce5a14409c1946e3315dca882100f65a1b76
@@ -31,7 +87,7 @@ entries:
     version: 3.2.5
   - apiVersion: v2
     appVersion: 24.0.5
-    created: "2022-11-01T20:19:05.829398-06:00"
+    created: "2022-12-06T21:01:04.890356-06:00"
     description: A file sharing server that puts the control and security of your
       own data back into your hands.
     digest: 1e49cd4d7f53aa2dc0646c06c09aebd440582dcc6faa49a3bba994dbd25fe9e3
@@ -59,7 +115,7 @@ entries:
     version: 3.2.4
   - apiVersion: v2
     appVersion: 24.0.5
-    created: "2022-11-01T20:19:05.82236-06:00"
+    created: "2022-12-06T21:01:04.882107-06:00"
     description: A file sharing server that puts the control and security of your
       own data back into your hands.
     digest: 61aa70546dd453a405744dcb2f1ecdbff7dfc712c864d35ea3646047c45a0392
@@ -87,7 +143,7 @@ entries:
     version: 3.2.3
   - apiVersion: v2
     appVersion: 24.0.5
-    created: "2022-11-01T20:19:05.816801-06:00"
+    created: "2022-12-06T21:01:04.878166-06:00"
     description: A file sharing server that puts the control and security of your
       own data back into your hands.
     digest: d217d50ae8cd5d4c6608c7dbb4073876ce869f151625a8b84f9277dd79326259
@@ -115,7 +171,7 @@ entries:
     version: 3.2.2
   - apiVersion: v2
     appVersion: 24.0.5
-    created: "2022-11-01T20:19:05.812341-06:00"
+    created: "2022-12-06T21:01:04.875151-06:00"
     description: A file sharing server that puts the control and security of your
       own data back into your hands.
     digest: 20a42c34b58252fd5d8877e4b6ad98190c2a473d44732227fa4cb22298285461
@@ -141,4 +197,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/tensorbit/nextcloud-kubernetes/main/build/nextcloud-3.2.1.tgz
     version: 3.2.1
-generated: "2022-11-01T20:19:05.804279-06:00"
+generated: "2022-12-06T21:01:04.871495-06:00"
